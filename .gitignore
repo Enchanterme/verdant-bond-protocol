@@ -10,13 +10,13 @@ dist/
 .env
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
 *~
 
 # OS
+temp_auto_push.bat
 .DS_Store
 Thumbs.db
 
@@ -32,3 +32,8 @@ build/
 
 # Angular cache
 **/.angular/cache/
+
+# Backfill checkpoints, locks and rollback journals (operator state)
+api/data/backfill/
+.gitignore
+branch_structure.json
